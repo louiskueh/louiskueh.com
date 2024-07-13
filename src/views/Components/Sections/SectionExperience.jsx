@@ -23,12 +23,6 @@ class SectionExperience extends React.Component {
                 <div className={classes.typo}>
                   <div className={classes.note}>
                     <a href="https://www.skyscanner.net/" target="_blank" rel="noopener noreferrer" title="Skyscanner">
-                      <img
-                        src={skyscanner}
-                        alt="Skyscanner logo"
-                        style={{ height: "4%", width: "4%", position: "relative", bottom: "3px", paddingRight: "5px" }}
-                        className="slick-image"
-                      />
                     </a>
                     <b>Skyscanner </b>| Software Engineer II | Jan 2022 - Present
                   </div>
@@ -50,12 +44,6 @@ class SectionExperience extends React.Component {
                 <div className={classes.typo}>
                   <div className={classes.note}>
                     <a href="https://www.arm.com/" target="_blank" rel="noopener noreferrer" title="Arm">
-                      <img
-                        src={arm}
-                        alt="Arm logo"
-                        style={{ height: "4%", width: "4%", position: "relative", bottom: "3px", paddingRight: "5px" }}
-                        className="slick-image"
-                      />
                     </a>
                     <b>Arm </b>| Full Stack Developer | Sept 2019 - Jan 2022
                   </div>
