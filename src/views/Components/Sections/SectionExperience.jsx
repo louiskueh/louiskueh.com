@@ -22,27 +22,80 @@ class SectionExperience extends React.Component {
               <GridItem xs={12} sm={12} md={12} className={classes.itemGrid}>
                 <div className={classes.typo}>
                   <div className={classes.note}>
-                  <a href="https://www.db.com/unitedkingdom/" target="_blank" rel="noopener noreferrer" title="Github">
+                    <a href="https://www.skyscanner.net/" target="_blank" rel="noopener noreferrer" title="Skyscanner">
                       <img
-                        src={deutsche}
-                        alt="First slide"
-                        style={{height:"4%",width:"4%", position:"relative",bottom:"3px",paddingRight:"5px"}}
+                        src={skyscanner}
+                        alt="Skyscanner logo"
+                        style={{ height: "4%", width: "4%", position: "relative", bottom: "3px", paddingRight: "5px" }}
                         className="slick-image"
                       />
                     </a>
-                  <b>Deutsche Bank </b>| Software developer Intern | June 2017 - August 2017
-                  
+                    <b>Skyscanner </b>| Software Engineer II | Jan 2022 - Present
                   </div>
-             
+
                   <div className={classes.text}>
-                  <hr />
+                    <hr />
+                    <h3><b>Key Achievements</b></h3>
+                    <ul>
+                      <li>Developed features for Skyscanner's B2B API, handling over 60 million requests daily and powering Microsoft Bing Flights, Tripadvisor Flights, and more.</li>
+                      <li>Optimised thread pool implementation and CPU scaling, resulting in cost savings of approximately 50% (from $94,000 to $47,450 yearly).</li>
+                      <li>Engineered Skyscanner's B2B API for integration with ChatGPT & Bing Copilot plugins, and Google's Search Page Flight Integration.</li>
+                      <li>Served as principal lead for introducing baggage cost initiative in the B2B API space, leading to a 5% uplift in redirects.</li>
+                      <li>Led design and development of the B2B auto-suggest API, empowering over 90 partners to integrate auto-suggest into their platforms.</li>
+                    </ul>
+                  </div>
+                </div>
+              </GridItem>
+              <GridItem xs={12} sm={12} md={12} className={classes.itemGrid}>
+                <div className={classes.typo}>
+                  <div className={classes.note}>
+                    <a href="https://www.arm.com/" target="_blank" rel="noopener noreferrer" title="Arm">
+                      <img
+                        src={arm}
+                        alt="Arm logo"
+                        style={{ height: "4%", width: "4%", position: "relative", bottom: "3px", paddingRight: "5px" }}
+                        className="slick-image"
+                      />
+                    </a>
+                    <b>Arm </b>| Full Stack Developer | Sept 2019 - Jan 2022
+                  </div>
+
+                  <div className={classes.text}>
+                    <hr />
+                    <h3><b>Key Achievements</b></h3>
+                    <ul>
+                      <li>Implemented core downloads service for Arm's external customers, built with React, Redux & NodeJS, GraphQL.</li>
+                      <li>Proposed & implemented monitoring and alerting for back-end services via Azure Functions - caught 3 major incidents in the first month.</li>
+                      <li>Proactively resolved production bugs, used Agile to prioritise requirements and Azure DevOps CI/CD to rapidly iterate.</li>
+                      <li>Advocated for & implemented security headers via Akamai for arm.com - increased the rating from D to A on securityheaders.com.</li>
+                    </ul>
+                  </div>
+                </div>
+              </GridItem>
+              <GridItem xs={12} sm={12} md={12} className={classes.itemGrid}>
+                <div className={classes.typo}>
+                  <div className={classes.note}>
+                    <a href="https://www.db.com/unitedkingdom/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img
+                        src={deutsche}
+                        alt="First slide"
+                        style={{ height: "4%", width: "4%", position: "relative", bottom: "3px", paddingRight: "5px" }}
+                        className="slick-image"
+                      />
+                    </a>
+                    <b>Deutsche Bank </b>| Software developer Intern | June 2017 - August 2017
+
+                  </div>
+
+                  <div className={classes.text}>
+                    <hr />
                     <h3><b>Buisness Case </b></h3>
                     <p>Developed a (Java) web application to automate SQL queries which were manually changed every day in the backend, after which the results were copied and pasted into a SharePoint document - taking up to 2 hours
-                  every day.<br />  With the application, the process was <b>12 times faster</b> - taking up to <i>10 minutes</i>  for the same task.</p>
+                      every day.<br />  With the application, the process was <b>12 times faster</b> - taking up to <i>10 minutes</i>  for the same task.</p>
                     <h3><b>Overall Impression</b></h3>
                     <p>
                       As someone who had limited Java experience before undertaking the project, I thoroughly enjoyed learning new technologies and the experience of delivering a solution in a work place setting.
-                    <br />I was particularly impressed with <b>SonarQube</b>, which is an industry standard tool for quality assurance. It ensures your code is clean - for example making sure there are no unhandled exceptions and also gives a hard statistical number on your code coverage from testing. </p>
+                      <br />I was particularly impressed with <b>SonarQube</b>, which is an industry standard tool for quality assurance. It ensures your code is clean - for example making sure there are no unhandled exceptions and also gives a hard statistical number on your code coverage from testing. </p>
                     <h3><b> Technologies</b></h3>
                     <div className={classes.iconSize}>
                       <svg viewBox="0 0 128 128" width="10%" height="10%">
@@ -54,7 +107,7 @@ class SectionExperience extends React.Component {
                       <svg viewBox="0 0 128 128" width="10%" height="10%">
                         <path fill="#131313" d="M89.234 5.856h-7.384l7.679 8.333v3.967h-15.816v-4.645h7.678l-7.678-8.333v-3.971h15.521v4.649zm-18.657 0h-7.384l7.679 8.333v3.967h-15.817v-4.645h7.679l-7.679-8.333v-3.971h15.522v4.649zm-18.474.19h-7.968v7.271h7.968v4.839h-13.632v-16.949h13.632v4.839z"></path><path fill="#1572B6" d="M27.613 116.706l-8.097-90.813h88.967l-8.104 90.798-36.434 10.102-36.332-10.087z"></path><path fill="#33A9DC" d="M64.001 119.072l29.439-8.162 6.926-77.591h-36.365v85.753z"></path><path fill="#fff" d="M64 66.22h14.738l1.019-11.405h-15.757v-11.138h27.929000000000002l-.267 2.988-2.737 30.692h-24.925v-11.137z"></path><path fill="#EBEBEB" d="M64.067 95.146l-.049.014-12.404-3.35-.794-8.883h-11.178999999999998l1.561 17.488 22.814 6.333.052-.015v-11.587z"></path><path fill="#fff" d="M77.792 76.886l-1.342 14.916-12.422 3.353v11.588l22.833-6.328.168-1.882 1.938-21.647h-11.175z"></path><path fill="#EBEBEB" d="M64.039 43.677v11.136999999999999h-26.903000000000002l-.224-2.503-.507-5.646-.267-2.988h27.901zM64 66.221v11.138h-12.247l-.223-2.503-.508-5.647-.267-2.988h13.245z"></path>
                       </svg>
-                      <svg viewBox="0 0 128 128"width="10%" height="10%">
+                      <svg viewBox="0 0 128 128" width="10%" height="10%">
                         <path fill="#5B4282" d="M9.531 112.586h4.161c1.896 0 3.273.27 4.129.81.857.54 1.285 1.398 1.285 2.575 0 .799-.188 1.454-.563 1.966s-.874.82-1.496.924v.091c.848.189 1.459.543 1.834 1.061s.563 1.207.563 2.067c0 1.22-.44 2.171-1.322 2.854-.881.683-2.078 1.024-3.59 1.024h-5.001v-13.372zm2.835 5.296h1.646c.768 0 1.325-.119 1.669-.356.345-.238.517-.631.517-1.18 0-.512-.187-.879-.562-1.102s-.968-.334-1.779-.334h-1.491v2.972zm0 2.25v3.485h1.848c.78 0 1.356-.149 1.729-.448s.558-.756.558-1.372c0-1.109-.793-1.665-2.378-1.665h-1.757zM34.252 119.254c0 2.213-.549 3.915-1.646 5.104s-2.67 1.784-4.719 1.784-3.622-.595-4.719-1.784c-1.098-1.189-1.646-2.896-1.646-5.122s.55-3.925 1.651-5.099 2.678-1.761 4.733-1.761 3.626.592 4.715 1.774c1.087 1.183 1.631 2.885 1.631 5.104zm-9.758 0c0 1.494.283 2.619.851 3.375.567.756 1.414 1.134 2.542 1.134 2.262 0 3.393-1.503 3.393-4.509 0-3.012-1.125-4.518-3.375-4.518-1.128 0-1.979.379-2.552 1.139s-.859 1.885-.859 3.379zM49.161 119.254c0 2.213-.549 3.915-1.646 5.104s-2.67 1.784-4.719 1.784-3.622-.595-4.719-1.784c-1.098-1.189-1.646-2.896-1.646-5.122s.55-3.925 1.651-5.099 2.678-1.761 4.733-1.761 3.626.592 4.715 1.774c1.086 1.183 1.631 2.885 1.631 5.104zm-9.759 0c0 1.494.283 2.619.851 3.375.567.756 1.414 1.134 2.542 1.134 2.262 0 3.393-1.503 3.393-4.509 0-3.012-1.125-4.518-3.375-4.518-1.128 0-1.979.379-2.552 1.139s-.859 1.885-.859 3.379zM57.09 125.958h-2.835v-11.012h-3.631v-2.36h10.097v2.36h-3.631v11.012zM70.671 122.245c0 1.208-.434 2.159-1.303 2.854-.869.695-2.078 1.043-3.626 1.043-1.427 0-2.689-.269-3.786-.805v-2.634c.902.402 1.666.686 2.291.851s1.196.247 1.715.247c.622 0 1.099-.119 1.431-.356.333-.238.499-.591.499-1.061 0-.262-.073-.495-.219-.7-.146-.204-.361-.401-.645-.59s-.861-.491-1.733-.905c-.817-.384-1.43-.753-1.838-1.107-.409-.354-.735-.765-.979-1.234-.244-.47-.366-1.019-.366-1.646 0-1.183.401-2.113 1.203-2.79s1.91-1.015 3.325-1.015c.695 0 1.358.082 1.989.247.631.165 1.291.396 1.98.695l-.915 2.204c-.713-.292-1.303-.497-1.77-.613-.467-.116-.925-.174-1.376-.174-.537 0-.948.125-1.235.375-.287.25-.43.576-.43.979 0 .25.058.468.174.654.116.186.3.366.553.54.253.174.852.486 1.797.938 1.25.598 2.107 1.197 2.57 1.797s.694 1.334.694 2.206zM78.254 125.958h-2.835v-11.012h-3.631v-2.36h10.097v2.36h-3.631v11.012zM86.778 120.827v5.131h-2.835v-13.372h3.896c1.817 0 3.161.331 4.033.992.872.662 1.308 1.667 1.308 3.014 0 .787-.216 1.486-.649 2.099s-1.046 1.093-1.838 1.44c2.012 3.006 3.323 4.948 3.933 5.826h-3.146l-3.192-5.131h-1.51zm0-2.305h.915c.896 0 1.558-.149 1.985-.448s.64-.769.64-1.409c0-.634-.218-1.085-.654-1.354-.436-.268-1.111-.402-2.026-.402h-.86v3.613zM104.494 125.958l-.97-3.183h-4.875l-.97 3.183h-3.055l4.719-13.426h3.466l4.738 13.426h-3.053zm-1.647-5.561c-.896-2.884-1.401-4.515-1.514-4.893-.113-.378-.193-.677-.242-.896-.201.78-.777 2.71-1.729 5.789h3.485zM118.469 116.757c0 1.439-.45 2.54-1.349 3.301-.899.763-2.178 1.144-3.837 1.144h-1.216v4.756h-2.835v-13.372h4.271c1.622 0 2.855.349 3.7 1.047.844.699 1.266 1.74 1.266 3.124zm-6.402 2.122h.933c.872 0 1.524-.172 1.957-.517.433-.345.649-.846.649-1.504 0-.665-.182-1.156-.544-1.473-.363-.317-.932-.476-1.706-.476h-1.29v3.97zM73.951 56.759c-1.983-.653-4.838-.759-8.565-.759h-13.386v20h14.424c2.502 0 4.259-.249 5.271-.437 1.783-.318 3.274-.93 4.472-1.676 1.198-.744 2.183-1.869 2.955-3.293.771-1.424 1.158-3.087 1.158-4.951 0-2.184-.559-3.98-1.677-5.59-1.117-1.611-2.668-2.642-4.652-3.294zM71.895 48.147c1.97-.586 3.455-1.646 4.452-3.003.999-1.357 1.498-3.103 1.498-5.154 0-1.943-.466-3.675-1.398-5.154-.932-1.478-2.263-2.481-3.992-3.027-1.732-.544-4.7-.809-8.906-.809h-11.549v18h12.507c3.435 0 5.897-.399 7.388-.853zM117 16.126c0-7.802-6.325-14.126-14.127-14.126h-77.746c-7.802 0-14.127 6.324-14.127 14.126v77.748c0 7.802 6.325 14.126 14.127 14.126h77.746c7.802 0 14.127-6.324 14.127-14.126v-77.748zm-30.43 57.144c-1.157 2.356-2.589 4.173-4.292 5.451-1.704 1.277-3.841 2.446-6.41 3.098-2.569.653-5.717 1.181-9.444 1.181h-22.424v-59h22.065c4.473 0 8.059.62 10.761 1.804 2.703 1.185 4.818 3.021 6.351 5.483 1.53 2.463 2.296 5.046 2.296 7.735 0 2.502-.68 4.861-2.036 7.071-1.358 2.21-3.408 3.995-6.15 5.352 3.54 1.038 6.263 2.811 8.166 5.313 1.903 2.503 2.855 5.458 2.855 8.866-.001 2.742-.579 5.291-1.738 7.646z"></path>
                       </svg>
                       <svg viewBox="0 0 128 128" width="10%" height="10%">
@@ -63,9 +116,9 @@ class SectionExperience extends React.Component {
                       <svg viewBox="0 0 128 128" width="10%" height="10%">
                         <path className="st0" d="M39.2,49.5c1,0.7,2,1.3,3,2c0.2,0.2,0.6,0.2,0.9,0.2c3.1-0.5,6.1,0,8.6,2c1.6,1.3,2.7,3,3.2,5 c0.1,0.6,0,0.8-0.6,0.7c-0.2,0-0.5,0-0.7,0c-1.5,0.2-2.6,0-3.4-1.7c-1-2.1-3.4-2.9-5.8-2.4c-0.1,1,0,2.1-0.2,3.1 c-0.7,3.3-2.4,6.1-5.6,7.7c-0.5,0.2-0.5,0.5-0.3,0.9c1.1,4,4.5,6.1,8.6,5.5c1.2-0.2,4.3-1.5,4.2-2c0-1,0-1.9,0-2.9 c0-0.6-0.2-0.8-0.7-0.8c-1.5,0-2.9,0-4.4,0c-0.6,0-0.8-0.2-0.7-0.8c0-0.6,0-1.2,0-1.8c0-0.5,0.1-0.7,0.6-0.6c2.8,0,5.6,0,8.5,0 c0.5,0,0.6,0.2,0.6,0.6c0,2.4,0,4.9,0,7.3c0,1.3-1,2.1-1.9,2.8c-1.7,1.2-3.7,1.7-5.7,1.8c-2.4,0.2-4.9,0.2-7.1-1 c-2.9-1.5-4.8-3.8-5.8-6.9c-0.3-0.9-0.5-1-1.3-0.5c-0.7,0.4-1,1.1-1,1.9c-0.1,1.8,0,3.7-0.1,5.5c0,0.3,0,0.5,0,0.9 c-1.4,0-2.8,0-4.1,0c-0.2,0-0.4-0.4-0.6-0.5C26.1,74.3,25,73,23.7,72c-2-1.6-3.9-1.1-5.2,1.1c-0.5,0.9-0.9,1.9-1.4,3 c-1.2,0-2.4,0-3.7,0c-0.2-0.6-0.2-1.2-0.5-1.8c-0.3-0.6-0.6-1.2-1.1-1.7c-0.9-1-2.1-1-3.1-0.1c-1.1,0.9-1.5,2.2-1.8,3.6 c-1.6,0-3.3,0-4.9,0c-0.1-0.8-0.2-1.6-0.4-2.4c0-1.4,0-2.9,0-4.3c0.1-0.7,0.2-1.5,0.3-2.2c0.4-2.7,1.2-5.3,3.1-7.5 c1.1-1.4,2.5-2.3,4.2-2.9c0.7,1.3,1.3,2.5,1.9,3.6c0.7,1.3,1.8,2.2,3.4,2.1c1.6-0.1,3.7-1.6,4.2-2.9c-0.2,0.2-0.4,0.3-0.5,0.4 c-0.8,0.5-1.6,1.1-2.5,1.4c-1.3,0.5-2.5,0.3-3.2-0.8c-1.1-1.8-2.1-3.7-3.1-5.6c-0.5-1-0.2-1.9,0.8-2.6c0.3-0.2,0.6-0.4,0.9-0.5 c2.1-0.6,4.2-1.3,6.3-1.7c5.3-0.9,10.1,0.4,14,4.3c1,1,2.2,1.9,3.5,3c1-1.9,2.3-3.4,4.1-4.5c-0.6-0.4-1.1-0.7-1.5-1.1 c-0.7-0.5-0.7-0.8-0.1-1.4c0.4-0.4,0.8-0.7,1.1-1C38.8,49.5,39,49.5,39.2,49.5z M28.3,58.4c-0.6-0.2-1.2-0.4-1.7-0.6 c-0.6,1.8,0.1,3.1,1.7,3.6c1.5,0.4,3.2-0.4,3.6-1.8c-0.4-0.1-0.8-0.3-1.4-0.5c0.1,0.9-0.2,1.5-1,1.7c-0.6,0.1-1.1,0-1.5-0.6 C27.6,59.6,27.8,59.1,28.3,58.4z M96.9,60.4c0-0.4,0-0.6,0-0.9c0-2.2,0-4.4,0-6.5c0-0.6,0.2-0.8,0.7-0.8c0.8,0,1.6,0,2.4,0 c0.6,0,0.8,0.2,0.7,0.8c0,3,0,6,0,9.1c0,2.4,0,4.7,0,7.1c0,2-0.1,4-0.1,6c0,0.5-0.2,0.7-0.7,0.7c-0.7,0-1.4,0-2.2,0 c-0.7,0-1-0.1-0.9-0.9c0-0.2,0-0.3-0.1-0.6c-0.2,0.1-0.4,0.1-0.5,0.2c-2.7,2.8-8.1,2-10.3-1.7c-2.1-3.6-1.5-9.5,1.5-12.4 c2.3-2.2,6.7-2.5,8.8-0.3C96.5,60.2,96.7,60.2,96.9,60.4z M96.5,64.6c-0.5-1.6-1.7-2.5-3.4-2.5c-1.5,0-2.7,0.6-3.5,2 c-1.2,2.3-1.1,4.6,0.1,6.8c1.4,2.6,5.1,2.5,6.4-0.1C97,69.5,97.1,65.8,96.5,64.6z M83.2,75.7c-1.2,0-2.5,0-3.7,0 c-0.5,0-0.6-0.2-0.7-0.6c0-0.2-0.1-0.4-0.1-0.7c-0.3,0.2-0.6,0.3-0.9,0.5c-2.2,1.2-4.5,1.6-6.9,0.6c-2-0.8-3.1-2.4-3.2-4.5 c0-1.9,0.8-3.6,2.6-4.4c1.4-0.6,2.9-0.9,4.3-1.3c1-0.3,2.1-0.5,3.1-0.8c0.4-0.1,0.8-0.6,0.9-1c0.2-0.6-0.1-1.2-0.7-1.6 c-1.3-0.8-3.7-0.6-4.8,0.3c-0.3,0.2-0.6,0.6-0.6,0.9c-0.1,0.7-0.5,0.7-1.1,0.7c-0.7,0-1.4,0-2.2,0c-0.7,0-0.8-0.3-0.7-0.8 c0.3-1.5,1-2.7,2.4-3.5c1.8-1,3.7-1.2,5.7-1c0.9,0.1,1.7,0.2,2.6,0.4c2.4,0.6,3.5,2.1,3.5,4.5c0,2.6,0,5.2,0,7.8c0,1,0,1.9,0,2.9 C82.9,74.7,83.1,75.1,83.2,75.7z M78.9,67.4c-1.3,0.3-2.5,0.6-3.7,0.9c-0.7,0.2-1.4,0.3-2,0.5c-1,0.4-1.4,1.1-1.3,2.2 c0.1,0.8,0.6,1.4,1.5,1.6c1.4,0.4,2.7,0.2,3.9-0.5C78.9,71.3,79.4,69.6,78.9,67.4z M114,68.2c-0.2,1.5,1.1,3.3,2.6,3.9 c1.7,0.7,4.7,0.6,5.9-1.4c0.1-0.2,0.5-0.3,0.7-0.2c0.9,0.4,1.7,0.9,2.6,1.4c-0.6,1.3-1.5,2.2-2.6,3c-2.9,2.1-9.3,1.9-11.9-2.2 c-0.9-1.4-1.3-3-1.4-4.7c-0.1-2.1,0.2-4.1,1.4-5.9c1.3-2,3.2-3,5.5-3.4c1.6-0.2,3.2,0,4.7,0.5c2.9,1.1,4.1,3.5,4.6,6.4 c0.1,0.6,0.1,1.1,0.2,1.7c0.1,0.6-0.2,0.8-0.8,0.8c-3.5,0-7,0-10.5,0C114.6,68.2,114.3,68.2,114,68.2z M114.1,65.4 c2.6,0,5.2,0,7.8,0c0.2-1.7-1.4-3.5-3.1-3.6C116.2,61.6,114.2,63,114.1,65.4z M103.9,74.8c0,0.7,0.2,1,0.9,0.9c0.7-0.1,1.4,0,2.1,0 c0.7,0,0.9-0.2,0.9-0.9c0-3,0-6,0-9.1c0-4.3,0.1-8.7,0.1-13c0-0.5-0.2-0.6-0.6-0.6c-0.8,0-1.6,0-2.5,0c-0.7,0-0.9,0.2-0.9,0.9 c0,3.6,0,7.2,0,10.8C103.9,67.6,103.9,71.2,103.9,74.8z M61.3,61.1c0-0.5,0-1,0-1.5c0-0.4-0.2-0.6-0.6-0.6c-0.8,0-1.6,0-2.5,0 c-0.5,0-0.7,0.2-0.7,0.7c0,5.1,0,10.3,0,15.4c0,0.5,0.2,0.7,0.7,0.7c0.7,0,1.4,0,2.2,0c0.7,0.1,0.9-0.2,0.9-0.9 c0-2.6,0.1-5.3,0.1-7.9c0.1-2,1.3-3.6,3.3-4.1c0.4-0.1,0.9-0.1,1.4-0.2c0.5-0.1,0.7-0.3,0.7-0.8c0-0.8,0-1.7,0-2.5 c0-0.5-0.2-0.7-0.7-0.7c-1.6,0.1-3.1,0.6-4.1,1.9c-0.1,0.2-0.3,0.4-0.5,0.6C61.5,61.1,61.4,61.1,61.3,61.1z"></path>
                       </svg>
-          
-                      
-      
+
+
+
                     </div>
                   </div>
                 </div>
